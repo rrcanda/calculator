@@ -13,8 +13,8 @@ body {
 .container {
     width: 100%;
     max-width: 390px;
-    height: 400px;
-    margin: 50px auto;
+    height: 500px;
+    margin: 10% auto;
     padding: 20px;
     background-color: #666e6e;
     border-radius: 10px;
@@ -27,7 +27,7 @@ body {
 }
 input {
     width: 100%;
-    height: 75px;
+    height: 90px;
     font-size: 24px;
     padding: 10px;
     border: none;
@@ -51,4 +51,13 @@ input {
 }
 .equal {
     background-color: #fe423f;
+}
+
+#display {
+    text-align: end;
+    font-size: 3rem;
+}
+
+.back {
+    width: 168px;
 }
